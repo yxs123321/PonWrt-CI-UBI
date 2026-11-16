@@ -1,3 +1,4 @@
+# ci: force workflow detection after fork
 name: Build PonWrt supported PON devices
 
 on:
