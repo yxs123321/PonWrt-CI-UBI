@@ -1,0 +1,6 @@
+# Put your custom commands here that should be executed once
+# the system init finished. By default this file does nothing.
+
+(sleep 60; ip link set lan1 down; sleep 2; ip link set lan1 up) &
+
+exit 0
