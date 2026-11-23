@@ -17,8 +17,8 @@ fi
 set -- \
 	"$DIR"/v2ray-geoip-202610290022.1.apk \
 	"$DIR"/v2ray-geosite-202610302203.1.apk \
-	"$DIR"/daed-2026.11.17-r1-aarch64_cortex-a53.apk \
-	"$DIR"/luci-app-daede-1.15-r13-aarch64_cortex-a53.apk
+	"$DIR"/daed-router-0.6.90-aarch64_cortex-a53.apk \
+	"$DIR"/luci-app-daed-router-0.6.90-service-control.apk
 
 files=
 for f in "$@"; do
